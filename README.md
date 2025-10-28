@@ -15,3 +15,30 @@ technology file )
 ## For schematic:
 •	Pick the components NMOS, PMOS, ground, VDD and voltage source.
 •	Connect the wire as per the schematic diagram.
+
+<img width="554" height="412" alt="3-stage oscillator symbol diagram" src="https://github.com/user-attachments/assets/249cba17-63cb-4e0e-9ab2-585b5bc71646" />
+
+fig-symbol diagram in cadence 
+
+<img width="895" height="439" alt="image" src="https://github.com/user-attachments/assets/ba32edfc-068a-4f94-8513-9adf76e087be" />
+
+Transient Analysis and OP:
+•	In the Analysis section, select transient.
+•	In the stop time type 1u and click OK.
+•	In the transient Analysis section, turn on Save transient Operating Point. 
+•	Check the enable button and then click Apply.
+•	Click OK in the Choosing Analyses Form.
+•	Click OK in the Choosing Analyses Form.
+Execute Outputs: 
+To be plotted – Select on Schematic in the simulation window. 
+Follow the prompt at the bottom of the schematic window, Click on output net Vout, input 
+net Vin of the Inverter. 
+Execute Simulation:
+Net list and Run in the simulation window to start the Simulation. 
+When simulation finishes, the transient automatically will be popped up along file.
+
+## waveform:
+
+
+## Result:
+Design of CMOS 3 stage oscillator and transient performed and output waveforms are obtained.
